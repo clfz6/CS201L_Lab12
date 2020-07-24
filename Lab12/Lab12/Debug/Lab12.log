@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\c++\CS201L\CS201L_Lab12\Lab12\Lab12\Source.cpp(21,20): error C3861: 'factorial_r': identifier not found
+C:\c++\CS201L\CS201L_Lab12\Lab12\Lab12\Source.cpp(25,24): error C3861: 'fibonacci_r': identifier not found
+C:\c++\CS201L\CS201L_Lab12\Lab12\Lab12\Source.cpp(31,18): error C3861: 'is_prime_r': identifier not found
+C:\c++\CS201L\CS201L_Lab12\Lab12\Lab12\Source.cpp(50,12): error C3861: 'sum_r': identifier not found
+C:\c++\CS201L\CS201L_Lab12\Lab12\Lab12\Source.cpp(54,2): error C3861: 'output_reverse_list_r': identifier not found
