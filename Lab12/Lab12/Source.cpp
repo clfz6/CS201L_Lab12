@@ -10,10 +10,20 @@ Lab12
 using namespace std;
 
 // function prototypes, pre/post conditions 
+
+// Calculates the factorial of the value passed in
 unsigned long factorial_r(unsigned long value);
+
+// Calculates the nth number of the fibonacci sequence
 int fibonacci_r(int n);
+
+// Determines if the value passed in is a prime number
 bool is_prime_r(int value, int n);
+
+// Adds up all the integers in a passed in array
 int sum_r(int list[], int list_size);
+
+// Outputs the reverse order of a passed in array
 void output_reverse_list_r(int list[], int list_size);
 
 int main() {
@@ -30,7 +40,6 @@ int main() {
 	int fibanacci_value = fibonacci_r(user_value);
 	cout << "\n" << "fibonacci(" << user_value << ") = " << fibanacci_value << endl;
 
-
 	// Prime Function
 	int new_value;
 	cout << "\nEnter a number to check if it is a prime number " << endl;
@@ -44,7 +53,6 @@ int main() {
 	{
 		cout << new_value << " is a NOT prime number" << endl;
 	}
-
 	
 	// Sum Function
 	const int VALUE_SIZE = 5;
@@ -80,13 +88,16 @@ unsigned long factorial_r(unsigned long value)
 	}
 }
 
-
 int fibonacci_r(int n)
 {
 	if (n <= 2)
+	{
 		return 1;
+	}
 	else
+	{
 		return fibonacci_r(n - 1) + fibonacci_r(n - 2);
+	}	
 }
 
 bool is_prime_r(int value, int n)
